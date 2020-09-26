@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Electrolize, 'sans-serif';
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.weekdisplay {
+    height: 100%;
+    font-size: 105px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    transition: all 1.5s ease-in-out;
+    transform: scale(0);
+}
+
+.weekdisplay_show {
+    transform: scale(1);
+}
