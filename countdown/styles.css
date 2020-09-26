@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Electrolize", sans-serif;
+    background: url('/assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.nextYear {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+}
+
+.countdownText {
+    font-size: 95px;
+    color: white;
+}
+
+.countdownGrid {
+    display: grid;
+    grid-template-areas: 'months days hours minutes seconds';
+    grid-column-gap: 100px;
+    color: white;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+}
+
+.timeText {
+    font-size: 95px;
+}
+
+.labelText {
+    font-size: 55px;
+}
